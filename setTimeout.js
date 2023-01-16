@@ -16,7 +16,6 @@ which is given as arguement to clearTimeout.
 */
 
 let timerId = setTimeout(greet,6000);
-console.log(timerId)
 
 clearTimeout(timerId)
 console.log("timer is stopped")
