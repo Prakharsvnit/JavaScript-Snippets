@@ -32,10 +32,16 @@ ReferenceError: unknown_variable not defined
 */
 console.log(unknown_variable) 
 
+/* 
+If you comment line 33,then only rest of the code 
+below line 33 will be executed (Wierd!)
+*/
+
 //let is almost same as var,but has different scope.
 let clark_kent;
 clark_kent = "Superman"
 console.log("Clark Kent",clark_kent)
 
 //value of const variable cannot be changed
-const ironamn = "Robert Downey Jr."
+const ironman = "Robert Downey Jr."
+console.log(ironman)
