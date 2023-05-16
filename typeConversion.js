@@ -38,4 +38,9 @@ console.log(Boolean(false))
 
 //output for above are false
 
-console.log(Boolean(true))  //true
+console.log(Boolean(true))  
+console.log(Boolean("peter"))
+console.log(Boolean(1))
+console.log(Boolean({name:"John"}))
+
+//output for above are true
