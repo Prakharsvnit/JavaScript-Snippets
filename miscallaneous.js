@@ -8,7 +8,10 @@ let counter
 console.log(counter) // undefined
 console.log(typeof counter) // undefined
 
+console.log(undeclared_variable) //ReferenceError
 console.log(typeof undeclared_variable) //undefined
+
+//You will have to comment line 11 to make rest pf code work (Wierd!)
 
 let object1 = {name:"peter"}
 console.log(typeof object1)
