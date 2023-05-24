@@ -27,3 +27,9 @@ const flatNumbersDefault = numbers.flat();     //default depth is 1,if depth is 
 console.log(flatNumbers);
 console.log(flatNumbersDefault);
 
+// reverse() method returns the array in reverse order.It MODIFIES Original Array.
+
+let languages = ["JavaScript", "Python", "C++", "Java", "Lua"];
+let reversedArray = languages.reverse();
+console.log("Reversed Array: ", reversedArray);
+console.log("Original Array: ", languages);
