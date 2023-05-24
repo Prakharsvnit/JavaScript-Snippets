@@ -1,6 +1,6 @@
-// indexOf() method
+// indexOf() method returns the index of the first occurrence of a specified element in the array.
 
-let scores = [10, 20, 30, 10, 40, 20];
+let scores = [10, 20, 30, 10, 40, 20,10,40];
 console.log(scores.indexOf(10))          
 
 let guests = [
@@ -13,6 +13,9 @@ console.log(guests.indexOf({
     name: 'John Doe',
     age: 30
 })); // -1 (Wierd!)
+
+// lastIndexOf() method returns the index of the last occurrence of a specified element in the array.
+console.log(scores.lastIndexOf(10))
 
 // findIndex() method returns the index of the element that  
 // satisfies a testing function or -1 if no element passed the test
