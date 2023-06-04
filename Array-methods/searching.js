@@ -1,3 +1,9 @@
+// .at method() saves the pain for finding the last element which we had to do like arr[arr.length-1]
+// but now arr.at(-1) for lat  element in array,arr.at(-2) for second last element,and so on
+
+const arr = [2,2,3,4,5]
+console.log(arr.at(-1))   //5
+
 // indexOf() method returns the index of the first occurrence of a specified element in the array.
 
 let scores = [10, 20, 30, 10, 40, 20,10,40];
