@@ -5,7 +5,9 @@
 | to make a deep copy of a JavaScript object, use JSON.stringify() to convert the object to a JSON string, and then JSON.parse() to convert the string back into a (completely new) JavaScript object | all object-copy operations (spread syntax,.concat(),.slice(),.from(),.assign(),.create()) create shallow copies.|
 
 **Problem** ***with creating deep copy***
-Can be solved using `structuredClone() global function`
+Can be solved using `structuredClone() global function`  
+
 
 **Problem** ***with shallow copy***
 *nested objects* 
+
