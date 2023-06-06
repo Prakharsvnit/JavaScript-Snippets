@@ -5,7 +5,19 @@
 
 
 function add(a,b){
-    return a - b;
+    return a + b;
 }
 
 console.log(add(2,3));   //5
+
+// Function Expression
+var canada = () => console.log('cold')
+
+// Function Declaration
+function india() {
+  console.log('warm')
+}
+
+// Function Calling/Execution
+canada()
+india()
