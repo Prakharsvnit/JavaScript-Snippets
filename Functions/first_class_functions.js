@@ -6,6 +6,10 @@ They can be stored as :
 - returned by another function
 */
 
+function add(a,b){
+    return a + b;
+}
+
 //Functions are treated like any other variable.
 let sum = add;
 console.log(sum(2,4));
