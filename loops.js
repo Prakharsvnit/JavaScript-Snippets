@@ -17,3 +17,20 @@ let str = 'abc';
 for (let c of str) {
     console.log(c);
 }
+
+// for...in loop to iterate over the enumerable properties of an object
+// Avoid using for...in loop to iterate over elements of an array
+
+let personObj = {
+    firstName: 'John',
+    lastName: 'Doe',
+    ssn: '299-24-2351'
+};
+
+for(const property in personObj) {
+    console.log(property + ':' + personObj[property]);
+}
+
+// firstName:John
+// lastName:Doe
+// ssn:299-24-2351
