@@ -11,3 +11,12 @@ Can be solved using `structuredClone() global function`
 **Problem** ***with shallow copy***\
 *nested objects* 
 
+### Object Methods :
+
+1. **shallow copy** or **merge**  
+- spread(`...`) operator
+- `Object.assign()` method
+
+2. **deep copy**
+- `JSON.parse(JSON.stringify(obj))`
+- `structuredClone(obj)` global method
