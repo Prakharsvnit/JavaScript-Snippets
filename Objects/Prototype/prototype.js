@@ -26,6 +26,7 @@ function Person(first, last, age, eyecolor) {
 }
 
 // BUT, prototype property allows you to add new properties, methods to object constructors:
+// This property is called prototype inheritance.
 Person.prototype.ears = 2
 Person.prototype.name = function(){
     return this.firstName + " " + this.lastName
