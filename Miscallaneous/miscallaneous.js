@@ -40,3 +40,9 @@ console.log(Infinity * 2) //Infinity
 
 console.log(Infinity / Infinity)  //NaN
 console.log(0/0)                  //NaN
+
+const arr = [1,2,3];
+arr[0] = [4];
+console.log(arr);                  // [4,2,3]   
+arr = [1,5,6];
+console.log(arr);                  // TypeError: Assignment to constant variable.
