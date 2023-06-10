@@ -1,36 +1,19 @@
-// while,do ...while,for (in notebook)
-// for...of,for...in
+// while creates a loop that executes a block as long as a condition evaluates to true.
 
-// ES6 introduced for...of that iterates over an iterable object such as:
-
-// Arrays :
-
-let scores = [80, 90, 70];
-for (let score of scores) {
-    score = score + 5;
-    console.log(score);
+console.log("while loop output")
+let count = 1;
+while (count < 10) {
+    console.log(count);
+    count +=2;
 }
 
-// Strings :
+// do...while creates a loop that executes a block as long as condition inside while statement evaluates to true.
+// do-while loop always executes the statement at least once before evaluating the expression.
 
-let str = 'abc';
-for (let c of str) {
-    console.log(c);
-}
+console.log("do-while loop")
+let index = 0;
+do {
+  console.log(index);
+  index++;
+} while (index < 5)
 
-// for...in loop to iterate over the enumerable properties of an object
-// Avoid using for...in loop to iterate over elements of an array
-
-let personObj = {
-    firstName: 'John',
-    lastName: 'Doe',
-    ssn: '299-24-2351'
-};
-
-for(const property in personObj) {
-    console.log(property + ':' + personObj[property]);
-}
-
-// firstName:John
-// lastName:Doe
-// ssn:299-24-2351
