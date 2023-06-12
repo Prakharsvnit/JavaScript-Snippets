@@ -1,14 +1,10 @@
 // Default parameters in function
-function say(message='Hi') {
-    console.log(message);
+function multiply(a, b = 10) {
+    return a * b;
 }
   
-say(); // 'Hi'
-say('Hello') // 'Hello'
-
-// default value of parameter is undefined
-function say(message) {
-    console.log(message);
-}
-
-say(); // undefined
+console.log(multiply(5, 2));
+// Expected output: 10
+  
+console.log(multiply(5));
+// Expected output: 50
