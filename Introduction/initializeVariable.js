@@ -45,3 +45,12 @@ console.log("Clark Kent",clark_kent)
 //value of const variable cannot be changed
 const ironman = "Robert Downey Jr."
 console.log(ironman)
+
+
+/*
+Naming rules for identifiers:
+1. can't contain spaces.
+2. can't contain reserved words like new,function,let,var,const,throw,catch,void,etc.
+3. can't have first character as $,_
+4. can have alphanumeric,special characters
+*/
