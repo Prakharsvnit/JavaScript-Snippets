@@ -8,6 +8,8 @@ console.log(NaN === NaN);     // false(Wierd!)
 // To detect if a variable is NaN: use isNaN() method
 console.log(isNaN("hello"));    // true
 console.log(isNaN("1"))         // false
+console.log(isNaN(null))        // false as Number(null) is 0
+console.log(isNaN(""));         // false as Number('') is 0
 
 // Operations resulting into NaN
 
