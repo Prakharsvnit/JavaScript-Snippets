@@ -1,6 +1,11 @@
 const falsy_values = [false,0,'',undefined,NaN,null]
 console.log(falsy_values.forEach(value => Boolean(value)));
 
+// To check,if variable is null,we use typeof operator,
+// But for null,we have to explicity check if variable is null using  === operator 
+// since object and null both return their type as object.
+// if(variable === null){...}
+
 let a = null;
 console.log(typeof a) //Object!!! 
 
