@@ -1,3 +1,6 @@
+const falsy_values = [false,0,'',undefined,NaN,null]
+console.log(falsy_values.forEach(value => Boolean(value)));
+
 let a = null;
 console.log(typeof a) //Object!!! 
 
