@@ -10,6 +10,8 @@ console.log(isNaN("hello"));    // true
 console.log(isNaN("1"))         // false
 console.log(isNaN(null))        // false as Number(null) is 0
 console.log(isNaN(""));         // false as Number('') is 0
+console.log(isNaN(undefined));  // true
+console.log(isNaN(false));      // false
 
 // Operations resulting into NaN
 
