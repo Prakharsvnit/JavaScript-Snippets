@@ -21,6 +21,6 @@ console.log(null ?? 0);              //  0
 console.log(45 ?? 25);               //  45
 
 let result1 = 0 ?? console.log('Hi');
-console.log(result1);               // 1
+console.log(result1);               // 0
 
 // REMARK: I think it's the best way to check for null and undefined values
