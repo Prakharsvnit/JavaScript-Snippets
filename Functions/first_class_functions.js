@@ -1,36 +1,39 @@
 /*
 functions are considered "first-class citizens" 
-They can be stored as :
-- variable inside an object or an array
+- can be assigned as variables
+- can be stored as variable inside an object or an array
 - passed as an argument to another function 
 - returned by another function
 */
 
-function add(a,b){
-    return a + b;
+function add(a, b) {
+  return a + b;
 }
 
-//Functions are treated like any other variable.
-let sum = add;
-console.log(sum(2,4));
-console.log(add(2,4));
+let sum = add; // function assigned to variable
+console.log(sum(2, 4));
+console.log(add(2, 4));
 
-//Pass a function as an argument into another function.
-function cmToIn(length) {
-    return length / 2.54;
-  }
-  
-function inToCm(length) {
-    return length * 2.54;
+let arr = [1, 2, 3, add]; // function stored in an array
+console.log(arr[3](6, 4));
+
+// function passed as an argument to another function
+function average(add, a, b) {
+  return add(a, b) / 2;
 }
-  
-//Function(fn) returned by another function(convert) taking function(fn) as arguement 
-function convert(fn, length) {
-    return fn(length);
+
+console.log(average(add, 8, 4));
+
+//returned by another function
+function createMultiplier(multiplier) {
+  return function (number) {
+    return number * multiplier;
+  };
 }
-  
-let inches = convert(cmToIn, 10);
-console.log(inches);
-  
-let cm = convert(inToCm, 10);
-console.log(cm);
+
+// Creating a function that doubles a number
+const double = createMultiplier(2);
+
+// Using the returned function to double a number
+console.log(double(5)); // Output: 10
+console.log(double(7)); // Output: 14
