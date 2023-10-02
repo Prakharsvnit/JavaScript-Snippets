@@ -67,3 +67,18 @@ console.log(
     age: 30,
   })
 ); // -1 (Wierd!)
+
+/*
+This is related to how JavaScript handles floating-point numbers.
+
+console.log(0.1 + 0.2);`
+
+This statement will print `0.30000000000000004` to the console. 
+This is because JavaScript uses binary floating-point representation to store 
+and perform calculations on decimal numbers. Due to the inherent limitations of binary representation, 
+Certain decimal numbers cannot be represented exactly. In this case, the sum of `0.1` and `0.2` cannot be 
+represented precisely in binary, resulting in a small rounding error.
+
+*/
+
+
