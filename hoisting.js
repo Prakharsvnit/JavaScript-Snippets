@@ -1,0 +1,1 @@
+//Use function declarations for named functions and function expressions for anonymous functions. Function declarations are hoisted, while function expressions are not. Hoisting is the default behavior of moving all the declarations to the top of the scope before code execution.
