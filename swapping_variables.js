@@ -17,3 +17,10 @@ let x = 10,y = 20;
 
 console.log(x); // 20
 console.log(y); // 10
+
+// swapping values of variables without using temporary variable
+
+let a = 4,b = 7;
+a = a + b;       // 11
+b = a - b;       // 4
+a = a - b;       // 7
