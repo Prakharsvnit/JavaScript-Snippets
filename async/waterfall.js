@@ -19,3 +19,9 @@ async.waterfall([
         console.log('Final result:', finalResult);
     }
 });
+
+/*
+This function runs an array of functions in series, each passing their results to the next in the array. 
+However, if any of the functions pass an error to the callback, the next function is not executed and 
+the main callback is immediately called with the error.
+*/
