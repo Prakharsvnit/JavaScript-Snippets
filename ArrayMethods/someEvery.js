@@ -16,3 +16,6 @@ const equalToEight = marks.every((e) => {
 })
 
 console.log("output from every()",equalToEight)
+
+// Caution: If the input array is empty, conditions don't matter
+// In case of every(),result will always be true
