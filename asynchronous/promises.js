@@ -30,3 +30,8 @@ countValue
     }).finally(() => {
         console.log("finally block executed")
     })
+
+// The then() method is a callback, to be executed when the promise is fulfilled, 
+// and catch() method is a callback to be invoked when the promise is rejected.    
+// The finally() method schedule a function to execute when the promise is settled, either fulfilled or rejected.
+// It’s good practice to place the code that cleans up the resources in the finally() method.
