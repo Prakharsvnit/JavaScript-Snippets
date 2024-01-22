@@ -102,3 +102,5 @@ console.trace(new Error("My Error"));
 
 ## Important note:
 > Always document the recovery procedures for troubleshooting and handling errors. 
+
+For handling errors in event emitters, refer [here](https://github.com/Prakharsvnit/nodebestpractices?tab=readme-ov-file#-213-subscribe-to-event-emitters-and-streams-error-event), error handling is different in case of events and streams as try-catch clause won't get errors that originate from Event Emitters
