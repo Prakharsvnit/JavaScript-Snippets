@@ -1,0 +1,5 @@
+What is Execution context, call stack,event loop,task queue ?
+
+let,var and const,temporal deadzone,hoisting
+
+scoping,lexical env,scope chain
