@@ -1,3 +1,8 @@
+// Scheduling methods - Timers (setTimeout(), setInterval()) , Promises, setImmediate(), process.nextTick()
+
+// priority of methods used for scheduling callbacks - https://prakhartripathi.hashnode.dev/decoding-nodejs-callback-priority
+
+
 /*
 setTimeout is asynchronous method
 which executes a function after specified time,
