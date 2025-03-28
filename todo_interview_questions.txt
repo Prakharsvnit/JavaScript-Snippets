@@ -1,7 +1,39 @@
-What is Execution context, call stack,event loop,task queue ?
+Can you explain the execution context in JavaScript? How does the call stack work?
 
-let,var and const,temporal deadzone,hoisting
+What is the event loop in JavaScript, and how does it handle asynchronous operations?
 
-scoping,lexical env,scope chain
+What are the differences between var, let, and const? When should each be used?
 
-currying
+How does hoisting work in JavaScript? What gets hoisted and how?
+
+Can you explain the different types of scopes in JavaScript? How does lexical scoping work?
+
+What is the scope chain, and how does JavaScript resolve variable references?
+
+What is the Temporal Dead Zone (TDZ), and how does it affect let and const?
+
+How does JavaScript handle prototypal inheritance? What is prototype chaining?
+
+What is currying in JavaScript? Can you give an example?
+
+What are call(), apply(), and bind() methods? How are they different?
+
+What is a closure in JavaScript? Can you provide a real-world use case?
+
+What are Promises in JavaScript? What are their different states?
+
+How does promise chaining work? What are .then(), .catch(), and .finally() used for?
+
+What is the difference between Promise.all(), Promise.race(), Promise.allSettled(), and Promise.any()?
+
+What is callback hell, and how do Promises help solve it?
+
+How does async/await work? How does it improve Promise-based code?
+
+How do you handle errors in async/await? Should you use try...catch or .catch()?
+
+What is the difference between debouncing and throttling? When would you use each?
+
+Can you explain event bubbling and event capturing? How does JavaScript handle event propagation?
+
+What is event delegation, and how does it improve performance?
