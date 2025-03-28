@@ -1,0 +1,16 @@
+What is ReactJS,features
+Explain the differences between class components and functional components in React.
+Discuss various React hooks such as UseState, UseEffect, UseRef, UseMemo,usecallback,useContext
+What is state,props?
+what is controlllled and uncontrollled components?
+High order components
+SSR
+Routing
+What is Prop Drilling? How do we avoid it.
+How do you manage state in a React application? contextapi
+What are the different lifecycle methods in React class components?
+What is JSX, and how does it differ from regular JavaScript?
+Can you explain the rendering process in React? VIRTUALDOM
+How do you optimize performance in a React application?
+Discuss techniques such as memoization and code splitting.
+how to build react apps - vite,weback,etc
